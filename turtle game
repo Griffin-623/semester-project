@@ -1,0 +1,35 @@
+import turtle
+import time
+import random
+`
+griffin = turtle.Turtle()
+griffin.shape("turtle")
+griffin.color("green")
+griffin.speed(6)
+griffin.goto(-200,0)`
+
+racer = turtle.Turtle
+racer.shape("turtle")
+racer.color("blue")
+racer.speed(6)
+racer.goto(-200,0)
+
+builder = turtle.Turtle()
+builder.shape("turtle")
+builder.color("black")
+builder.speed(0)
+builder.pendown()
+builder.forward(300)
+builder.backward(600)
+builder.penup()
+
+
+
+#distance =[40,90,200,250,300,350]
+#random_distance = random.choice(distance)
+#griffin.forward(random_distance)
+#racer.forward(random_distance)
+
+
+
+turtle.mainloop()   
